@@ -32,3 +32,8 @@ h3 {
 p {
     font-family: arial, sans-serif;
 }
+
+#thumbnail {
+    float: left;
+    padding-right: 5px;
+}
