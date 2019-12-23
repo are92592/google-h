@@ -1,6 +1,6 @@
 body {
     margin-left: 150px; 
-    width: 650px;
+    width: 630px;
 }
 
 #questions {
@@ -20,13 +20,19 @@ body {
     padding-top: 15px;
 }
 
+
 h3 {
     font-family: arial, sans-serif;
     font-weight: lighter;
 }
 
 .link {
-    padding-left: 25px;
+    line-height: .5;
+}
+
+.link h3{
+    /*padding-left: 25px;*/
+    color: blue;
 }
 
 p {
@@ -36,4 +42,33 @@ p {
 #thumbnail {
     float: left;
     padding-right: 5px;
+}
+
+.prev {
+    color: green;
+}
+
+.desc {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+#related {
+    position: relative;
+    top: 50px;
+}
+
+#related h3 {
+    position: relative;
+    right: 120px;
+}
+
+#related li {
+    list-style-type: none;
+    position: relative;
+    right:40px;
+    font-family: arial, sans-serif;
+    line-height: 1.8;
+    font-size: 14px;
+    color: blue;
 }
